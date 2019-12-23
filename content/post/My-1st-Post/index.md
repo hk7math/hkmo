@@ -1,11 +1,11 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "My 1st Post"
+title: "第一篇 My 1st Post"
 subtitle: ""
 summary: ""
 authors: []
-tags: []
+tags: ["測試"]
 categories: []
 date: 2019-12-06T12:29:33+08:00
 lastmod: 2019-12-06T12:29:33+08:00
@@ -25,8 +25,9 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: ["HKMO"]
 ---
+來欣賞世界上最美的公式
 Let's have the World's Most Beautiful Equation:
 
 $$ e^{ i\\pi } +1 =0$$
