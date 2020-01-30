@@ -5,7 +5,7 @@ title: "帽子問題 Hat Problem"
 subtitle: ""
 summary: ""
 authors: []
-tags: ["謎題"]
+tags: ["謎題 Puzzle"]
 categories: []
 date: 2019-12-26T15:42:10+08:00
 lastmod: 2019-12-26T15:42:10+08:00
