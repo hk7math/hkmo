@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "帽子問題 (續) Hat Problem 2"
+title: "帽子問題(續) Hat Problem 2"
 subtitle: ""
 summary: ""
 authors: []
