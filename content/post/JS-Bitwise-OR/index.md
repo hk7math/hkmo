@@ -50,6 +50,9 @@ addTwoDigits = n => n%10 + n/10|0
 ```
 
 After some [researches](https://stackoverflow.com/questions/654057/where-would-i-use-a-bitwise-operator-in-javascript), there are quite some magical uses for the | bitwise operator, e.g. x|0 can function as:
+
 1. Math.floor(x) for postive x
+
 2. parseInt(x) for string x
+
 3. 0 for many special x (NaN, Infinity, null, undefined, [], {} ...)
