@@ -28,7 +28,7 @@ image:
 projects: []
 ---
 Jest is timeout occasionally
-![](/error.jpg)
+![](/post/fullstackopen-4/error.jpg)
 
 Reference: 
 https://stackoverflow.com/questions/49603939/async-callback-was-not-invoked-within-the-5000ms-timeout-specified-by-jest-setti
