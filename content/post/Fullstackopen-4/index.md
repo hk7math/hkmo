@@ -32,3 +32,31 @@ Jest is timeout occasionally
 
 Reference: 
 https://stackoverflow.com/questions/49603939/async-callback-was-not-invoked-within-the-5000ms-timeout-specified-by-jest-setti
+
+Like+1 via Mongoose
+Wrong
+```javascript
+blogsRouter.put('/:id', async (req, res) => {
+  await Blog.findByIdAndUpdate(
+    req.params.id, 
+    {$inc: {'blog.likes' : 1}},
+    {new: true},
+  )
+  res.status(202).end()
+})
+```
+
+Correct
+```javascript
+blogsRouter.put('/:id', async (req, res) => {
+  await Blog.findByIdAndUpdate(
+    req.params.id, 
+    {$inc: {likes : 1}},
+    {new: true},
+  )
+  res.status(202).end()
+})
+```
+
+Reference: 
+https://docs.mongodb.com/manual/reference/operator/update/inc/#example
