@@ -4,28 +4,25 @@
 
 widget = "people"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 weight = 68  # Order that this section will appear.
 
-title = "Meet the Team"
-subtitle = ""
+title = "巨匠大神"
+subtitle = "帶領歷史潮流的前沿思想"
 
 [content]
   # Choose which groups/teams of users to display.
   #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
-  user_groups = ["Principal Investigators",
-                 "Researchers",
-                 "Grad Students",
-                 "Administration",
-                 "Visitors",
-                 "Alumni"]
+  user_groups = ["科技",
+                 "數理",
+                 "人文"]
 
 [design]
   # Show user's social networking links? (true/false)
-  show_social = false
+  show_social = true
 
   # Show user's interests? (true/false)
-  show_interests = true
+  show_interests = false
 
 [design.background]
   # Apply a background color, gradient, or image.

@@ -15,7 +15,7 @@ role: 數學愛好者
 # Organizations/Affiliations
 organizations:
 - name: 奧數牧人巷
-  url: "https://www.facebook.com/hk7math"
+  url: "https://fb.com/hk7math"
 
 # Short bio (displayed in user profile at end of posts)
 bio: 奧數 - 從梳理線索到悟通思路，重點在於屢敗屢試以及邏輯解難，與常規課程到大學數學都不盡相同，前者著重規範，後者則重嚴謹，而奧數的樂趣則在於發現規律、發現數學=)
@@ -49,7 +49,7 @@ social:
   link: 'mailto:hk7math@gmail.com'  # For a direct email link, use "mailto:test@example.org".
 - icon: facebook
   icon_pack: fab
-  link: https://www.facebook.com/hk7math
+  link: https://fb.com/hk7math
 # - icon: google-scholar
 #   icon_pack: ai
 #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
